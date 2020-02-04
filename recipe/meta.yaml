@@ -1,5 +1,5 @@
 {% set name = "dask-geomodeling" %}
-{% set version = "2.1.1" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 780f97fb056de6b81f7d41a49e7bd13c18b2e1603ba6ec1332e0a918ad3a71fc
+  sha256: e6a8b23401e56268b10962dd66a8d10b91b1690ab8baff0690ffe3f71d7a5637
 
 build:
   number: 0
