@@ -1,5 +1,5 @@
 {% set name = "dask-geomodeling" %}
-{% set version = "2.1.1" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 780f97fb056de6b81f7d41a49e7bd13c18b2e1603ba6ec1332e0a918ad3a71fc
+  sha256: d782147252500b428c429c8cb2bbf04cc1914db332e41f325be0487d0a7b1d41
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -41,7 +41,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'On-the-fly operations on geographical maps'
+  summary: On-the-fly operations on geographical maps
   description: |
     dsk-geomodeling is a collection of classes that are to be stacked together to
     create configurations for on-the-fly operations on geographical maps.
