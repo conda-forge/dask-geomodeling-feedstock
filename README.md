@@ -5,7 +5,7 @@ Home: http://github.com/nens/dask-geomodeling
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: On-the-fly operations on geographical maps
 
