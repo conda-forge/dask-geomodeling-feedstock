@@ -5,9 +5,13 @@ Home: http://github.com/nens/dask-geomodeling
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-geomodeling-feedstock/blob/master/LICENSE.txt)
 
 Summary: On-the-fly operations on geographical maps
+
+Development: http://github.com/nens/dask-geomodeling
+
+Documentation: http://dask-geomodeling.readthedocs.io/
 
 dsk-geomodeling is a collection of classes that are to be stacked together to
 create configurations for on-the-fly operations on geographical maps.
