@@ -16,18 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3.5
     - pip
+    - python >=3.6
   run:
-    - python >=3.5
-    - gdal
-    - dask-core >=0.18
-    - toolz
-    - pandas >=0.19
-    - geopandas >=0.4
+    - dask-core >=0.20
+    - geopandas >=0.7
+    - numpy >=1.14
+    - pandas >=0.23
+    - python >=3.6
     - pytz
-    - numpy >=1.12
-    - scipy >=0.19
+    - scipy >=1.1
 
 test:
   imports:
@@ -35,11 +33,14 @@ test:
     - dask_geomodeling.core
     - dask_geomodeling.geometry
     - dask_geomodeling.raster
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://github.com/nens/dask-geomodeling
   license: BSD-3-Clause
-  license_family: BSD
   license_file: LICENSE
   summary: On-the-fly operations on geographical maps
   description: |
