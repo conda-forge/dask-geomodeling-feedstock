@@ -1,11 +1,11 @@
-About dask-geomodeling
-======================
+About dask-geomodeling-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-geomodeling-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/nens/dask-geomodeling
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-geomodeling-feedstock/blob/main/LICENSE.txt)
 
 Summary: On-the-fly operations on geographical maps
 
