@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/d/dask-geomodeling/dask_geomodeling-{{ version }}.tar.gz
   sha256: 03283a4af9ce4de36ea8550f06db0eb417537d87680d695826a03073e6f3fe90
 
 build:
